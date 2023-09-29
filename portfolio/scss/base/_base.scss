@@ -1,0 +1,33 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: $font-color;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    @include flexCenter;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    max-height: 1050px;
+    flex-grow: 1;
+    color: $font-color;
+    background-color: transparent;
+    border: 1px solid $bordercolor;
+    border-radius: 10px;
+}
