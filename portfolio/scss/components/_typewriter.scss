@@ -1,0 +1,31 @@
+.typewriter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+    color: crimson;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.cursor {
+    position: relative;
+}
+
+.cursor::after {
+    content: '';
+    width: 1px;
+    border-right: 3px solid white;
+    height: 100%;
+    margin-left: 0.5rem;
+    animation: blink 1s steps(2) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+}
