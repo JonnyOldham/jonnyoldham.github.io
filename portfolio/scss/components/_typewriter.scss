@@ -2,17 +2,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background: black;
-    color: crimson;
+    color: $font-color;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .cursor {
     position: relative;
+}
+
+.orange-text {
+    color: #ff6f00dc;
+}
+
+.blue-text {
+    color: #305cfa;
+}
+
+.yellow-text {
+    color: #faf030d8;
 }
 
 .cursor::after {
