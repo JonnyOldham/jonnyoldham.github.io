@@ -1,10 +1,47 @@
-$font-color: #b3edff;
-$background-color: black;
-$button-color: transparent;
-$button-border-color: fff;
-$bordercolor: #b3edff;
-$container-bgcolor: #f2f2f2;
-$button-textcolor: #b3edff;
-$shadowcolor: #fff;
-$text-shadow-color: #b3edffc5;
-$fadecolor: rgba(255, 255, 255, 0.6);
+:root {
+    --font-color: #000000;
+    --background-color: #f0f8ff;
+    --button-color: transparent;
+    --button-border-color: #fff;
+    --bordercolor: #000000;
+    --container-bgcolor: #f0f8ff;
+    --button-textcolor: #000000;
+    --button-bgcolor: #f0f8ff;
+    --button-fadeColor: #8af5ff42;
+    --shadowcolor: #f0f8ff;
+    --text-shadow-color: #b3edffc5;
+    --fadecolor: rgba(255, 255, 255, 0.6);
+    --textStroke: black;
+}
+
+.light-mode {
+    --font-color: #000000;
+    --background-color: #f0f8ff;
+    --button-color: transparent;
+    --button-border-color: #fff;
+    --bordercolor: #000000;
+    --container-bgcolor: #f0f8ff;
+    --button-textcolor: #000000;
+    --button-bgcolor: #f0f8ff;
+    --button-fadeColor: #8af5ff42;
+    --shadowcolor: #f0f8ff;
+    --text-shadow-color: #b3edffc5;
+    --fadecolor: rgba(255, 255, 255, 0.6);
+    --textStroke: black;
+}
+
+.dark-mode {
+    --font-color: #80ffb3;
+    --background-color: black;
+    --button-color: transparent;
+    --button-border-color: #fff;
+    --bordercolor: #80ffb3;
+    --container-bgcolor: #f2f2f2;
+    --button-textcolor: #80ffb3;
+    --button-bgcolor: #00000042;
+    --button-fadeColor: #8affc824;
+    --shadowcolor: #fff;
+    --text-shadow-color: #b3edffc5;
+    --fadecolor: rgba(255, 255, 255, 0.6);
+    --textStroke: transparent;
+}

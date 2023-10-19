@@ -1,23 +1,55 @@
 .button {
-    min-width: 82px;
-    min-height: 44px;
-    background-color: $button-color;
-    color: $button-textcolor;
-    border: 1px solid $bordercolor;
-    border-radius: 80px;
-    outline: none;
-    font-size: 1rem;
-    font-weight: 200;
-    margin: 5px;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  margin: 10px;
+  font-size: 18px;
+  border: 2px solid transparent;
+  background-color: var(--button-bgcolor);
+  color: var(--button-textcolor);
+  animation: border-spin 10s linear infinite;
+
+  &:hover {
+    background: var(--button-fadeColor) 20%;
+  }
 }
 
-.button:hover {
-    cursor: pointer;
-    box-shadow: 4px 2px 5px $text-shadow-color;
-    border-color: $font-color;
+@keyframes border-spin {
+  0% {
+    border-width: 2px;
+    border-color: transparent transparent transparent var(--button-textcolor);
+  }
+  25% {
+    border-width: 2px;
+    border-color: transparent var(--button-textcolor) transparent transparent;
+  }
+  50% {
+    border-width: 2px;
+    border-color: transparent transparent transparent var(--button-textcolor);
+  }
+  75% {
+    border-width: 2px;
+    border-color: transparent var(--button-textcolor) transparent transparent;
+  }
+  100% {
+    border-width: 2px;
+    border-color: transparent transparent transparent var(--button-textcolor);
+  }
 }
-  
-.button:hover, .button:focus {
-    box-shadow: 4px 2px 5px $text-shadow-color;
-    border-color: $font-color;
+
+.button-clicked {
+  transform: scale(0.95);
+  opacity: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+#dlToggle {
+  appearance: none;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+
+  &:hover {
+    background: var(--button-fadeColor) 20%;
+  }
 }

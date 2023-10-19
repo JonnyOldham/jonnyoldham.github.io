@@ -1,5 +1,5 @@
-#navButtons {
+.navButtons {
     @include flexCenter;
     flex-grow: 1;
-    padding: 3rem;
+    margin-bottom: 50px;
 }

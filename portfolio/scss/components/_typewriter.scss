@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: $font-color;
+    color: var(--font-color);
 }
 
 h1 {
@@ -18,17 +18,18 @@ h1 {
 }
 
 .blue-text {
-    color: #305cfa;
+    color: #3c97ff;
 }
 
 .yellow-text {
-    color: #faf030d8;
+    -webkit-text-stroke: .1px var(--textStroke);
+    color: #faf030df;
 }
 
 .cursor::after {
     content: '';
     width: 1px;
-    border-right: 3px solid white;
+    border-right: 3px solid var(--button-textcolor);
     height: 100%;
     margin-left: 0.5rem;
     animation: blink 1s steps(2) infinite;

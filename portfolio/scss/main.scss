@@ -1,9 +1,10 @@
 @import "abstracts/colors";
 @import "abstracts/mixins";
 @import "base/base";
+@import "layout/face";
+@import "layout/navButtons";
+@import "layout/logo";
 @import "components/fadeIn";
 @import "components/a11y";
 @import "components/buttons";
 @import "components/typewriter";
-@import "layout/navButtons";
-@import "layout/logo";
