@@ -23,3 +23,9 @@
   border-radius: 8px 8px 0 0;
   width: fit-content;
 }
+
+@media (max-width: 480px) {
+  .videoTile {
+    max-width: fit-content;
+  }
+}

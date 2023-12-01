@@ -4,9 +4,13 @@
   margin-top: 100px;
 }
 
+#robotFace {
+  height: 500px;
+}
+
 @media (max-width: 480px) {
   #robotFace {
-    width: 350px;
-    height: 430px;
+    width: 325px;
+    height: 405px;
   }
 }

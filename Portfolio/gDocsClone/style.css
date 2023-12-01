@@ -380,3 +380,71 @@ body {
   display: block;
   opacity: 1;
 }
+
+@media (max-width: 1190px) {
+  .newDocs {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid grey;
+  }
+}
+
+@media (max-width: 580px) {
+  main {
+    width: 100vw;
+  }
+
+  .header {
+    width: 100%;
+    position: fixed;
+  }
+
+  .headMain {
+    width: 100%;
+  }
+
+  .headRight {
+    margin: 0px;
+    position: relative;
+    left: -10px;
+  }
+
+  .rDocsHeadLeft,
+  .rDocsHeadRight {
+    max-width: fit-content;
+    padding: 0px;
+  }
+
+  .rDocsHeadRight {
+    margin-left: -50px;
+    margin-right: 10px;
+  }
+
+  .headCenter {
+    max-width: 210px;
+  }
+
+  .recentDocsHeader {
+    width: 100%;
+  }
+
+  #ownedBy {
+    margin-right: 0px;
+  }
+
+  #docs,
+  .greyed {
+    display: none;
+  }
+
+  #pluslogo {
+    display: none;
+  }
+
+  .newDocs {
+    margin-bottom: 20px;
+  }
+}
