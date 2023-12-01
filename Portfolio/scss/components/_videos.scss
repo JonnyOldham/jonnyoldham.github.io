@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   border-radius: 8px;
   margin: 10px 5px;
-  width: 340px;
+  width: fit-content;
 }
 
 .videoWrapper {
@@ -25,5 +25,5 @@ body {
 
 .video {
   border-radius: 8px 8px 0 0;
-  width: 100%;
+  width: 360px;
 }
