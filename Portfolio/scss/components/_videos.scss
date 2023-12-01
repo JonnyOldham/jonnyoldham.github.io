@@ -25,7 +25,8 @@
 }
 
 @media (max-width: 480px) {
-  .videoTile {
-    max-width: fit-content;
+  .videoTile,
+  .videoWrapper {
+    max-width: 95vw;
   }
 }
