@@ -1,0 +1,267 @@
+{
+  "composers": {
+    "bach": {
+      "videoUrl": "https://www.youtube.com/embed/CUkLZR-_Jfg?si=yg87BEoMfsPrfFZc",
+      "subheading": "Chorale: O große Lieb",
+      "description": "A chorale from Bach's St. Matthew Passion. It reflects on the boundless love and sacrifice of Jesus Christ, set to a rich and emotive musical arrangement."
+    },
+
+    "cage": {
+      "videoUrl": "https://www.youtube.com/embed/gXOIkT1-QWY?si=hhwtp9gwdoVg0cQc",
+      "subheading": "Water Walk",
+      "description": "A groundbreaking experimental composition which features a performer creating music by manipulating various everyday objects and generating sounds from water-related items in an avant-garde and unpredictable fashion."
+    },
+
+    "beet": {
+      "videoUrl": "https://www.youtube.com/embed/DWwppYEEdcI?si=R0809A_unAiTRi4i",
+      "subheading": "Symphony No.3 'Eroica'",
+      "description": "Composed between 1803 to 1804, Eroica broke boundaries in symphonic form, length, harmony, emotional and cultural content. It is widely considered a landmark in the transition between the Classical and the Romantic era."
+    },
+
+    "brahms": {
+      "videoUrl": "https://www.youtube.com/embed/oy6uV-eMOEs?si=EJJ2w8aRtRTdoIbx",
+      "subheading": "Waltz in A-flat major",
+      "description": "With its flowing melodies and intricate harmonies, it captures the romantic spirit of the era, making it a beloved piece among classical music enthusiasts. The waltz's intricate interplay of musical themes and its dynamic shifts in tempo and mood showcase Brahms' mastery of composition."
+    },
+
+    "chopin": {
+      "videoUrl": "https://www.youtube.com/embed/9E6b3swbnWg?si=lPKdOWLqJEapeZ9U",
+      "subheading": "Nocturne op.9 No.2",
+      "description": "A beautifully expressive piece. A lyrical and introspective composition known for its gentle, flowing melody and emotive harmonies. It's a quintessential example of Chopin's mastery in conveying complex emotions through his piano music."
+    },
+
+    "debussy": {
+      "videoUrl": "https://www.youtube.com/embed/QRjllL-MP0U?si=rWrSRCnI_Bfr7SqM",
+      "subheading": "Rêverie",
+      "description": "A dreamy and impressionistic piano piece that immerses the listener in a tranquil and contemplative atmosphere. Its soft, cascading melodies and harmonic richness epitomize Debussy's unique ability to create musical landscapes that evoke a sense of reverie and introspection."
+    },
+
+    "handel": {
+      "videoUrl": "https://www.youtube.com/embed/xuog35ZBBfM?si=Aw5EG7UEYU7jZnHV",
+      "subheading": "And the Glory of the Lord",
+      "description": "From Handel's Messiah. It's a triumphant and majestic choral movement that sets the tone for the oratorio. It exudes a sense of grandeur and anticipation, with its powerful choral passages and radiant orchestration, capturing the glory and magnificence of the biblical text it is based on."
+    },
+
+    "haydn": {
+      "videoUrl": "https://www.youtube.com/embed/mBmCcSz6HWw?si=YSo7dcmK0uBBvotn",
+      "subheading": "String Quartet No. 62, 'Emperor'",
+      "description": "Commonly known as the 'Emperor' Quartet and a masterful composition by Joseph Haydn. It is celebrated for its regal and resplendent melodies, showcasing Haydn's remarkable craftsmanship and ability to weave together the voices of a string quartet with grace and sophistication."
+    },
+
+    "liszt": {
+      "videoUrl": "https://www.youtube.com/embed/FZ651tNXp0Y?si=LRAqK8_34cFQ7uwE",
+      "subheading": "Liebestraum No. 3",
+      "description": "A tender and lyrical piano piece that embodies the essence of romanticism. Its beautiful, flowing melody and emotive harmonies create a dreamy and evocative atmosphere, making it a beloved work among piano enthusiasts and a quintessential example of Liszt's expressive and virtuosic style."
+    },
+
+    "mahler": {
+      "videoUrl": "https://www.youtube.com/embed/vOvXhyldUko?si=ho1tDOfhbbxn2ZvB",
+      "subheading": "Symphony No.5",
+      "description": "Mahler's Symphony No. 5 is a dynamic and emotionally charged monumental orchestral work. Abbado's conducting highlights the symphony's dramatic contrasts and showcases Mahler's ability to take listeners on a profound journey through various emotional landscapes, from the solemn funeral march to the triumphant finale."
+    },
+
+    "mozart": {
+      "videoUrl": "https://www.youtube.com/embed/4hIRXX_7gME?si=dBJ7r3YVUNqAMgPU",
+      "subheading": "Flute & Harp concerto - 2nd movement",
+      "description": "The second movement of Mozart's Flute and Harp Concerto, K. 299, is a serene and enchanting musical dialogue between the flute and harp. Known for its delicate melodies and elegant interplay between the two instruments, this movement exemplifies Mozart's gift for crafting exquisite and harmonious compositions."
+    },
+
+    "rach": {
+      "videoUrl": "https://www.youtube.com/embed/rEGOihjqO9w?si=pfiseOT1rFTwmNJ5",
+      "subheading": "Piano Concerto no.2",
+      "description": "A virtuosic and emotionally charged work, celebrated for its lush, sweeping melodies and passionate expression. It is a monumental piece in the romantic piano concerto repertoire, characterized by its dramatic themes and rich orchestration, demonstrating Rachmaninoff's exceptional command of the piano and his deep emotional resonance in his music."
+    },
+
+    "ravel": {
+      "videoUrl": "https://www.youtube.com/embed/wkAnau-XU80?si=Mn-hQJzwc8xnilN9",
+      "subheading": "Miroirs: III. Une barque sur l'océan",
+      "description": "a vivid and evocative musical portrayal of a boat on the ocean. Known for its swirling, impressionistic textures that conjure the image of a boat riding the waves, complete with splashing water and the vast expanse of the sea. It's a masterful example of Ravel's skill in creating colorful and atmospheric music."
+    },
+
+    "schoen": {
+      "videoUrl": "https://www.youtube.com/embed/5h5Xc-rUef4?si=0dsSqQJUNIbRK_AL",
+      "subheading": "Verklärte Nacht",
+      "description": "A deeply expressive and romantic string sextet renowned for its rich harmonies and emotional intensity, which beautifully convey the poignant narrative of two lovers walking through a moonlit forest. It's a seminal work that straddles the line between the late-Romantic and atonal periods of Schoenberg's career."
+    },
+
+    "schubert": {
+      "videoUrl": "https://www.youtube.com/embed/0bjB-IWEYI0?si=rfROQSqH4xWe5bB-",
+      "subheading": "Ständchen",
+      "description": "A beautiful and lyrical art song, or 'Lied', for voice and piano. It's a quintessential example of Schubert's gift for melody and his ability to convey profound emotion through music. The song's poetic text and Schubert's melodic and harmonic choices make it a beloved piece in the art song repertoire."
+    },
+
+    "strauss": {
+      "videoUrl": "https://www.youtube.com/embed/cKkDMiGUbUw?si=RlYVqLFfb5zkAvEb",
+      "subheading": "The Blue Danube",
+      "description": "One of the most iconic and beloved waltzes in the classical music repertoire. Known for its graceful melodies and enchanting waltz rhythm, this piece captures the charm and elegance of 19th-century Vienna. It is often associated with the romantic imagery of the Danube River and is a staple at New Year's concerts and traditional ballroom dance events."
+    },
+
+    "tallis": {
+      "videoUrl": "https://www.youtube.com/embed/iT-ZAAi4UQQ?si=S89kCcPcQJZ8e00N",
+      "subheading": "Spem In Alium",
+      "description": "Known for its immense complexity and grandeur. It is a 40-part motet, an extraordinary example of Renaissance polyphony, with each voice singing its own independent line. The composition is a remarkable display of choral virtuosity and has been praised for its emotional depth and the sense of awe it can inspire in listeners."
+    },
+
+    "tchai": {
+      "videoUrl": "https://www.youtube.com/embed/U7IV3rOvEQs?si=0fIwdupanBS1iUmr",
+      "subheading": "Dance of the Sugar Plum Fairy",
+      "description": "Featured in his ballet 'The Nutcracker', this piece is known for its delicate and enchanting melody, often played on the celesta, an instrument that produces a magical and ethereal sound. It is a beloved and iconic part of the ballet, evoking the enchantment and wonder of the holiday season."
+    },
+
+    "vivaldi": {
+      "videoUrl": "https://www.youtube.com/embed/ZPdk5GaIDjo?si=8WuM1AVfu39uVE1-",
+      "subheading": "Four Seasons: Winter",
+      "description": "The Winter concerto, like the others in the set, beautifully captures the essence of the season through music. It is known for its vivid, evocative musical descriptions of winter scenes, from chilly winds to the crackling of a cozy fire, and it is a shining example of Vivaldi's innovative Baroque compositions."
+    },
+
+    "wagner": {
+      "videoUrl": "https://www.youtube.com/embed/o-NI4WixVUg?si=BnMLtZ7PaGDW99qE",
+      "subheading": "Tannhäuser Overture",
+      "description": "A commanding orchestral composition that exudes power and grandeur. This musical prelude to Wagner's opera 'Tannhäuser' envelops the listener in a rich tapestry of dramatic themes and emotive intensity, effectively preparing the audience for the epic tale that unfolds in the opera."
+    },
+
+    "mendel": {
+      "videoUrl": "https://www.youtube.com/embed/MdQyN7MYSN8?si=8LzAtIckadEISB5v",
+      "subheading": "The Hebrides",
+      "description": "Also known as 'Fingal's Cave'. An evocative and atmospheric orchestral piece that vividly depicts the rugged and mystical landscapes of the Scottish Hebrides islands. With its swirling melodies and dramatic surges, the overture captures the natural beauty and the sense of wonder inspired by these remote and picturesque islands."
+    },
+
+    "verdi": {
+      "videoUrl": "https://www.youtube.com/embed/1LzBXe9--oM?si=y1Ao1x9J4V7UBxde",
+      "subheading": "Requiem - II. Dies Irae",
+      "description": "A powerful and dramatic section that, like other 'Dies Irae' movements in requiems, emphasizes the Day of Wrath and Judgment. Verdi's interpretation is known for its thunderous and apocalyptic choral and orchestral writing, capturing the fear and awe associated with the concept of divine judgment."
+    },
+
+    "puccini": {
+      "videoUrl": "https://www.youtube.com/embed/suj-2sbSFKs?si=4fn9kBn6rpXQKckw",
+      "subheading": "Nessun Dorma",
+      "description": "'Nessun Dorma' is a celebrated aria within Giacomo Puccini's opera 'Turandot.' This powerful and emotionally charged aria, sung by the character Calaf in the opera's final act, has garnered a special place in the world of opera and classical music. Its soaring melody, full of passion and determination, has made it one of the most beloved and iconic arias in the operatic repertoire."
+    },
+
+    "strav": {
+      "videoUrl": "https://www.youtube.com/embed/EkwqPJZe8ms?si=KuHxHw0PRB1lQpGn",
+      "subheading": "The Rite of Spring",
+      "description": "This revolutionary work, with its dissonant harmonies, irregular rhythms, and primal themes, caused a scandalous premiere in 1913. It is now celebrated as a pivotal piece of 20th-century music and dance, showcasing Stravinsky's innovative and avant-garde approach to music and his ability to evoke primitive and ritualistic atmospheres."
+    },
+
+    "schum": {
+      "videoUrl": "https://www.youtube.com/embed/yibf6QNjgGU?si=dcA2zB09owlIG35-",
+      "subheading": "Kinderszenen",
+      "description": "Translated as 'Scenes from Childhood' are a set of short piano pieces. These charming and evocative miniatures provide snapshots of a child's world, each piece capturing a different mood or scene. 'Kinderszenen' is a delightful example of Schumann's Romantic style and his ability to convey a wide range of emotions and images through his music."
+    },
+
+    "berlioz": {
+      "videoUrl": "https://www.youtube.com/embed/5HgqPpjIH5c?si=8uqCBETXvGqgJuO8",
+      "subheading": "Symphonie Fantastique",
+      "description": "This symphony is notable for its innovative use of programmatic music, where each movement tells a vivid and imaginative story. It's a prime example of the Romantic era, known for its emotional intensity and innovative orchestration, taking the listener on a journey through the composer's vivid and often fantastical musical imagination."
+    },
+
+    "grieg": {
+      "videoUrl": "https://www.youtube.com/embed/4nMUr8Rt2AI?si=1o_W8yXkcasA7tJN",
+      "subheading": "Peer Gynt Suite No. 1",
+      "description": "'In the Hall of the Mountain King' is a lively and dramatic piece. This music is often recognized for its intense and repetitive melody, which is associated with the frenzied activity inside the hall of the mountain king in Henrik Ibsen's play 'Peer Gynt.' It's a memorable and dynamic orchestral composition."
+    },
+
+    "elgar": {
+      "videoUrl": "https://www.youtube.com/embed/sUgoBb8m1eE?si=Rs6l1xYy37MDsBsz",
+      "subheading": "Nimrod",
+      "description": "'Nimrod,' from Elgar's 'Enigma Variations,' is a profoundly moving and lyrical piece that's known for its emotional depth. It's one of the most famous variations in the set. The variation showcases Elgar's gift for melody and orchestration, and its nostalgic and reverent character has made it a cherished part of the classical music repertoire."
+    },
+
+    "monte": {
+      "videoUrl": "https://www.youtube.com/embed/7GkMuOKEgtw?si=JtAunDke7-TKpVbb",
+      "subheading": "Pur ti Miro",
+      "description": "A duet from Claudio Monteverdi's opera 'L'incoronazione di Poppea'. This piece is a beautiful and intimate musical dialogue between the characters Poppea and Nero, expressing their love for each other. It's a captivating example of Monteverdi's skill in conveying deep emotions and complex relationships through his music, and it's a highlight of the Baroque operatic repertoire."
+    },
+
+    "dvorak": {
+      "videoUrl": "https://www.youtube.com/embed/P_1N6_O254g?si=swkqa3OSuKJOxQ-9",
+      "subheading": "From the New World",
+      "description": "Symphony No. 9 is a renowned symphonic work. It is celebrated for its rich melodies and influences from American folk music. The symphony's nickname, 'From the New World', alludes to Dvořák's time in the United States and the inspiration he drew from American culture and landscapes."
+    },
+
+    "shost": {
+      "videoUrl": "https://www.youtube.com/embed/mmCnQDUSO4I?si=IlixWUslMprz6LIs",
+      "subheading": "Waltz No. 2",
+      "description": "A lively and somewhat ironic waltz from his Suite for Variety Orchestra. It's characterized by its catchy and playful melody, making it a well-known and frequently performed piece in the composer's body of work. Shostakovich's ability to infuse his compositions with wit and charm is on full display in this waltz."
+    },
+
+    "sibelius": {
+      "videoUrl": "https://www.youtube.com/embed/F5zg_af9b8c?si=6Ln96kQeihJ_LHBV",
+      "subheading": "Finlandia",
+      "description": "A patriotic and powerful orchestral composition. It's one of the most iconic works in Finnish music, often regarded as a national symbol for Finland's struggle for independence. The piece is known for its grandeur and emotional depth, and it has been performed worldwide, becoming a symbol of Finnish identity and aspirations."
+    },
+
+    "prok": {
+      "videoUrl": "https://www.youtube.com/embed/Z_hOR50u7ek?si=afUimhRX97fvx839",
+      "subheading": "Dance of the Knights",
+      "description": "Also known as 'Montagues and Capulets'. A dramatic and powerful orchestral piece. It's from his ballet score for 'Romeo and Juliet'. This music is associated with the fierce feud between the Montague and Capulet families in Shakespeare's tragedy and is recognized for its dark and intense atmosphere."
+    },
+
+    "saint": {
+      "videoUrl": "https://www.youtube.com/embed/9aLyyhi_RvU?si=T_JnrWwuBu4r8Y1w",
+      "subheading": "The Swan",
+      "description": "Part of his larger work, 'The Carnival of the Animals'. This piece is known for its graceful and lyrical melody, which evokes the image of a graceful swan gliding on water. It's a beloved and widely recognized composition in the classical music repertoire, often performed as a standalone piece in concerts."
+    },
+
+    "satie": {
+      "videoUrl": "https://www.youtube.com/embed/JRbUNhOR-HM?si=JquSqtz_ptfZpOiy",
+      "subheading": "Gymnopedies",
+      "description": "A set of three short, iconic piano compositions. These pieces are known for their minimalistic and evocative qualities, with a sense of tranquility and simplicity. Regarded as early examples of ambient music, each of the three Gymnopédies is characterized by its gentle, melancholic melody and understated, impressionistic style."
+    },
+
+    "faure": {
+      "videoUrl": "https://www.youtube.com/embed/g16zSj6Ynko?si=HzRzcJyd9CZdK48P",
+      "subheading": "Cantique de Jean Racine",
+      "description": "A beautiful choral composition by Gabriel Fauré. It is based on a French translation of a Latin hymn and is known for its lyrical and harmonically rich choral writing. This piece exemplifies Fauré's unique style, characterized by its subtle elegance and emotional depth."
+    },
+
+    "muss": {
+      "videoUrl": "https://www.youtube.com/embed/XwJMpQiqCm4?si=3XG1iHGqxhoyWDHV",
+      "subheading": "Pictures at an Exhibition",
+      "description": "A suite of piano pieces inspired by a visit to an art exhibition and depicts various artworks through music. The suite is notable for its vivid and imaginative musical portrayal of the visual arts, and it has been orchestrated by various composers, with Maurice Ravel's orchestration being the most famous. "
+    },
+
+    "gersh": {
+      "videoUrl": "https://www.youtube.com/embed/r-CgxrMvRnY?si=BuudnzdkrPPkV890",
+      "subheading": "Rhapsody in Blue",
+      "description": "A famous composition, blending elements of classical music and jazz. It is a groundbreaking piece known for its innovative fusion of genres and its evocation of the energy and spirit of 1920s America. The work has become an iconic representation of American music and is celebrated for its memorable melodies and dynamic orchestration."
+    },
+
+    "purcell": {
+      "videoUrl": "https://www.youtube.com/embed/VVivtti-n-w?si=kix9oEo6UAmIQd3V",
+      "subheading": "Rondeau from Abdelazer",
+      "description": "A lively and recognizable composition by Henry Purcell. It is often performed as a standalone piece and is known for its catchy and festive melody. 'Abdelazer' is a semi-opera by Purcell, and the 'Rondeau' is a particularly memorable and spirited section of the work, making it a popular choice for both concerts and various adaptations."
+    },
+
+    "holst": {
+      "videoUrl": "https://www.youtube.com/embed/3aXsQQ-ueBk?si=3R_61SrACZXGMMEN",
+      "subheading": "'Jupiter' from 'The Planets'",
+      "description": "This movement is often regarded as one of the most uplifting and regal sections of the suite, known for its triumphant melodies and rich orchestration. It captures the characteristics and attributes associated with the planet Jupiter, exuding a sense of grandeur and splendor."
+    },
+
+    "copland": {
+      "videoUrl": "https://www.youtube.com/embed/TXV8yO1FucA?si=AbM4XgIuj0qWnB7K",
+      "subheading": "Appalachian Spring",
+      "description": "A celebrated ballet score known for its evocative and picturesque musical portrayal of rural American life. The piece captures the spirit of the American frontier and is celebrated for its use of folk melodies and open harmonies. 'Appalachian Spring' is a classic example of American classical music, lauded for its charm and nostalgic character."
+    },
+
+    "barber": {
+      "videoUrl": "https://www.youtube.com/embed/RgkZUM3Yiic?si=LHvI_-g7G6Tr9SP_",
+      "subheading": "Agnus Dei",
+      "description": "'A profoundly moving and expressive orchestral piece. Originally part of his String Quartet, Barber's adaptation for string orchestra is well-known and cherished for its emotional depth and poignant melodies. It is often performed in a solemn and contemplative context, making it a notable composition in the realm of classical music."
+    },
+
+    "byrd": {
+      "videoUrl": "https://www.youtube.com/embed/R3vuU7XAaUM?si=bUI1v6mqiRWwwsmn",
+      "subheading": "Ave Verum",
+      "description": "A beautiful and tranquil choral motet. It is recognized for its serene and contemplative qualities, often performed in religious settings. Byrd's composition captures a sense of reverence and spirituality, making it a notable work in the sacred choral music tradition."
+    },
+
+    "rutter": {
+      "videoUrl": "https://www.youtube.com/embed/MbudPRPrFWI?si=jUEXT_8Oe11tg18F",
+      "subheading": "Candlelight Carol",
+      "description": "A delightful and festive Christmas carol. This carol is known for its warm and inviting melodies, often performed in choral settings during the holiday season. Rutter's composition captures the cozy and joyful atmosphere of Christmas, making it a cherished part of the Christmas music repertoire."
+    }
+  }
+}

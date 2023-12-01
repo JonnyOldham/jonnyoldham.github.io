@@ -1,0 +1,25 @@
+.videoTile {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  border-radius: 8px;
+  margin: 10px 5px;
+}
+
+.videoWrapper {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vidDesc {
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+}
+
+.video {
+  border-radius: 8px 8px 0 0;
+  width: fit-content;
+}

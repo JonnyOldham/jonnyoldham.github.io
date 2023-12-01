@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Merriweather&family=Rock+Salt&display=swap");
+
+body {
+  background-image: url("img/machineBackground2.png");
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: "Merriweather", sans-serif;
+  color: #fff;
+}
+
+#head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", "Black Ops One", cursive;
+  font-size: 40px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+#craft,
+#submitText {
+  font-family: "Black Ops One", sans-serif;
+}
+
+#iteration {
+  font-family: "Rock Salt", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+h1 {
+  background-color: #000000b8;
+  border-radius: 10px;
+  font-weight: lighter;
+  -webkit-text-stroke: #000 2px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: #000000ab;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#instructions ol,
+#instructions p,
+#instructions h3 {
+  margin: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#settings,
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 400px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #000000c0;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 470px;
+}
+
+#settings h3,
+#controls h3 {
+  text-align: center;
+}
+
+#sliders,
+#controls div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+#panel {
+  height: 350px;
+  width: 350px;
+  background-image: url("img/controlPanel.png");
+  background-repeat: no-repeat;
+  background-size: 350px 335px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+#randomizeBtn {
+  background-color: rgb(0, 0, 176);
+  background-image: -webkit-linear-gradient(
+    hsla(0, 0%, 100%, 0.05),
+    hsla(0, 0%, 0%, 0.1)
+  );
+  height: 52px;
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  margin-top: 9px;
+  margin-bottom: 8px;
+}
+
+#submitBtn {
+  background-color: rgb(21, 120, 16);
+  background-image: -webkit-linear-gradient(
+    hsla(0, 0%, 100%, 0.05),
+    hsla(0, 0%, 0%, 0.1)
+  );
+  height: 168px;
+  color: white;
+  font-family: "Black Ops One", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+#resetBtn {
+  background-color: #7b0000;
+  background-image: -webkit-linear-gradient(
+    hsla(0, 0%, 100%, 0.05),
+    hsla(0, 0%, 0%, 0.1)
+  );
+  height: 60px;
+  font-family: "Merriweather", sans-serif;
+  color: white;
+  margin-top: 8px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 50px;
+  background-size: 100% 100%;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 60px;
+  background: #ff0000;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  opacity: 0.5;
+}
+
+.slider:hover {
+  border-color: white;
+}
+
+#infoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#resultSection {
+  display: flex;
+  opacity: 0;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 675px;
+  min-height: 340px;
+  background-color: #000000c0;
+  border: 1px solid white;
+  filter: blur(5px);
+  transition: filter 1s, opacity 1s;
+}
+
+#frame {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+}
+
+#composerPortrait {
+  height: 300px;
+  width: 280px;
+}
+
+#composerImage {
+  position: relative;
+  top: 27px;
+  left: 27px;
+  height: 244px;
+  width: 198px;
+  z-index: 1;
+}
+
+#composerInfo {
+  flex: 1;
+  align-self: flex-start;
+}
+
+#composerName {
+  font-size: 24px;
+  margin: 0;
+}
+
+#about {
+  font-size: 16px;
+}
+
+#flag {
+  height: 25px;
+  width: 40px;
+  margin-left: 15px;
+  border: 1px solid grey;
+}
+
+#compHead {
+  display: flex;
+  align-items: center;
+}
+
+#music {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  padding: 5px;
+  margin-left: 20px;
+  background-color: #000000c0;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#music h3,
+h4,
+p {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+#recList {
+  font-style: italic;
+}
+
+#music p {
+  font-size: 12px;
+}
+
+@media (max-width: 959px) {
+  #head {
+    font-size: 30px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  #iteration {
+    font-size: 40px;
+  }
+
+  #instructions {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+
+  #instructions ol,
+  #instructions p,
+  #instructions h3 {
+    margin: 5px;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  #settings,
+  #controls {
+    width: 100%;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    border-radius: 8px;
+  }
+
+  #sliders,
+  #controls div {
+    font-size: 15px;
+  }
+
+  #infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  #composerPortrait {
+    width: 250px;
+    margin-right: 30px;
+  }
+
+  #resultSection {
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+
+  #music {
+    margin-left: 0px;
+    width: 455px;
+  }
+}
+
+@media (max-width: 768px) {
+  #infoContainer {
+    margin: 0px;
+    margin-top: 4px;
+  }
+
+  #resultSection {
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 0px;
+    width: fit-content;
+  }
+
+  #composerName {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  #about {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  #flag {
+    height: 20px;
+    width: 30px;
+  }
+
+  #compHead {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  #composerPortrait {
+    width: 220px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #head {
+    font-size: 25px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    height: 70px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  #iteration {
+    font-size: 30px;
+  }
+
+  #instructions {
+    font-size: 12px;
+    border-radius: 6px;
+    margin: 0 auto;
+  }
+
+  #instructions ol,
+  #instructions p,
+  #instructions h3 {
+    margin: 5px;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  #settings,
+  #controls {
+    width: 100%;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    border-radius: 6px;
+  }
+
+  #sliders,
+  #controls div {
+    font-size: 15px;
+  }
+
+  .slider {
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+  }
+
+  .slider::-webkit-slider-thumb {
+    width: 8px;
+    height: 45px;
+    cursor: none;
+  }
+
+  .button {
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+
+  .button:hover {
+    transform: scale(1);
+  }
+
+  #randomizeBtn {
+    margin-top: -5px;
+    margin-bottom: 8px;
+  }
+
+  #infoContainer {
+    margin: 0px;
+    margin-top: 4px;
+  }
+
+  #resultSection {
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  #composerName {
+    font-size: 18px;
+  }
+
+  #about {
+    font-size: 12px;
+  }
+
+  #flag {
+    height: 14px;
+    width: 22px;
+  }
+
+  #compHead {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  #music {
+    width: 97%;
+  }
+}

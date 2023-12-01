@@ -1,47 +1,112 @@
-:root {
-    --font-color: #000000;
-    --background-color: #f0f8ff;
-    --button-color: transparent;
-    --button-border-color: #fff;
-    --bordercolor: #000000;
-    --container-bgcolor: #f0f8ff;
-    --button-textcolor: #000000;
-    --button-bgcolor: #f0f8ff;
-    --button-fadeColor: #8af5ff42;
-    --shadowcolor: #f0f8ff;
-    --text-shadow-color: #b3edffc5;
-    --fadecolor: rgba(255, 255, 255, 0.6);
-    --textStroke: black;
+#dlToggle {
+  transition: opacity 2s ease;
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#red {
+  color: #ea4335;
+}
+
+#blue {
+  color: #4285f4;
+}
+
+#green {
+  color: #34a853;
+}
+
+#yellow {
+  color: #fbbc05;
 }
 
 .light-mode {
-    --font-color: #000000;
-    --background-color: #f0f8ff;
-    --button-color: transparent;
-    --button-border-color: #fff;
-    --bordercolor: #000000;
-    --container-bgcolor: #f0f8ff;
-    --button-textcolor: #000000;
-    --button-bgcolor: #f0f8ff;
-    --button-fadeColor: #8af5ff42;
-    --shadowcolor: #f0f8ff;
-    --text-shadow-color: #b3edffc5;
-    --fadecolor: rgba(255, 255, 255, 0.6);
-    --textStroke: black;
+  --font-color: #000000;
+  --font-color2: #929292;
+  --background-color: #f0f8ff;
+  --button-color: transparent;
+  --button-border-color: #fff;
+  --bordercolor: #000000;
+  --bordercolor2: #00c3ff;
+  --container-bgcolor: #f0f8ff;
+  --button-textcolor: #000000;
+  --button-bgcolor: #f0f8ff;
+  --button-fadeColor: #8af5ff42;
+  --shadowcolor: #f0f8ff;
+  --text-shadow-color: #b3edffc5;
+  --fadecolor: #ffffff99;
+  --textStroke: black;
+
+  main {
+    box-shadow: 5px 5px 15px #0000008c;
+  }
+
+  .videoTile,
+  .projectTile {
+    border: 1px solid var(--bordercolor);
+  }
+
+  .videoTile:hover,
+  .projectTile:hover {
+    border: 1px solid var(--bordercolor2);
+  }
+
+  .vidDesc {
+    background-color: #c7c7c7c5;
+  }
+
+  #description,
+  h3 {
+    color: var(--font-color);
+  }
 }
 
 .dark-mode {
-    --font-color: #80ffb3;
-    --background-color: black;
-    --button-color: transparent;
-    --button-border-color: #fff;
-    --bordercolor: #80ffb3;
-    --container-bgcolor: #f2f2f2;
-    --button-textcolor: #80ffb3;
-    --button-bgcolor: #00000042;
-    --button-fadeColor: #8affc824;
-    --shadowcolor: #fff;
-    --text-shadow-color: #b3edffc5;
-    --fadecolor: rgba(255, 255, 255, 0.6);
-    --textStroke: transparent;
+  --font-color: #80ffb3;
+  --font-color2: #aeaeae;
+  --font-color3: #fff;
+  --background-color: black;
+  --button-color: transparent;
+  --button-border-color: #fff;
+  --bordercolor: #5c5c5cbe;
+  --bordercolor2: #80ffb36f;
+  --container-bgcolor: #f2f2f2;
+  --button-textcolor: #80ffb3;
+  --button-bgcolor: #00000042;
+  --button-fadeColor: #8affc824;
+  --shadowcolor: #fff;
+  --text-shadow-color: #b3edffc5;
+  --fadecolor: #ffffff99;
+  --textStroke: transparent;
+
+  main {
+    box-shadow: 5px 5px 10px #ffffff4e;
+  }
+
+  .videoTile,
+  .projectTile {
+    border: 1px solid var(--bordercolor);
+  }
+
+  .videoTile:hover,
+  .projectTile:hover {
+    border: 1px solid var(--bordercolor2);
+  }
+
+  .vidDesc,
+  .projectDesc {
+    background-color: #8a8a8a37;
+    color: var(--button-border-color);
+  }
+
+  #description {
+    color: var(--button-border-color);
+  }
+
+  h3,
+  h1 {
+    color: var(--button-textcolor);
+  }
 }

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Merriweather&family=Rock+Salt&display=swap");
+@import url("https://fonts.cdnfonts.com/css/product-sans");
+
+#projectTiles {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectTile {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 600px;
+  margin: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.projectTile:hover {
+  .projectImage {
+    opacity: 100%;
+    border-bottom: 1px solid var(--bordercolor2);
+  }
+}
+
+.tileText {
+  color: var(--font-color3);
+}
+
+.tileText:visited {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.projectImage {
+  border-radius: 7px 7px 0 0;
+  opacity: 80%;
+  width: 338px;
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.tileHead {
+  text-align: center;
+  height: 598px;
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.tileDesc {
+  text-align: justify;
+  margin: 5px 10px;
+}
+
+.projectIcons {
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+
+  img {
+    width: 40px;
+    margin: 5px;
+  }
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#composer {
+  font-family: "Lobster";
+  font-weight: lighter;
+  color: var(--font-color3);
+}
+
+#craft {
+  font-family: "Black Ops One";
+  font-weight: lighter;
+  color: var(--font-color3);
+}
+
+#gDocs1,
+#clone {
+  font-family: "Product Sans", sans-serif;
+  font-weight: bolder;
+}
+
+#gDocs2 {
+  font-family: "Product Sans", sans-serif;
+  color: var(--font-color2);
+}

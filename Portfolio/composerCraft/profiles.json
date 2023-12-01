@@ -1,0 +1,397 @@
+[
+  {
+    "name": "bach",
+    "orderChaos": 1,
+    "lightDark": 30,
+    "oldNew": 20,
+    "simpleComplex": 50,
+    "sugarSpice": 30
+  },
+
+  {
+    "name": "cage",
+    "orderChaos": 100,
+    "lightDark": 50,
+    "oldNew": 90,
+    "simpleComplex": 10,
+    "sugarSpice": 70
+  },
+
+  {
+    "name": "beet",
+    "orderChaos": 35,
+    "lightDark": 70,
+    "oldNew": 30,
+    "simpleComplex": 60,
+    "sugarSpice": 50
+  },
+
+  {
+    "name": "brahms",
+    "orderChaos": 25,
+    "lightDark": 60,
+    "oldNew": 60,
+    "simpleComplex": 80,
+    "sugarSpice": 60
+  },
+
+  {
+    "name": "chopin",
+    "orderChaos": 40,
+    "lightDark": 75,
+    "oldNew": 55,
+    "simpleComplex": 30,
+    "sugarSpice": 20
+  },
+
+  {
+    "name": "debussy",
+    "orderChaos": 80,
+    "lightDark": 40,
+    "oldNew": 70,
+    "simpleComplex": 25,
+    "sugarSpice": 30
+  },
+
+  {
+    "name": "handel",
+    "orderChaos": 5,
+    "lightDark": 1,
+    "oldNew": 20,
+    "simpleComplex": 20,
+    "sugarSpice": 1
+  },
+
+  {
+    "name": "haydn",
+    "orderChaos": 10,
+    "lightDark": 20,
+    "oldNew": 25,
+    "simpleComplex": 70,
+    "sugarSpice": 45
+  },
+
+  {
+    "name": "liszt",
+    "orderChaos": 70,
+    "lightDark": 60,
+    "oldNew": 55,
+    "simpleComplex": 55,
+    "sugarSpice": 70
+  },
+
+  {
+    "name": "mahler",
+    "orderChaos": 55,
+    "lightDark": 60,
+    "oldNew": 70,
+    "simpleComplex": 85,
+    "sugarSpice": 80
+  },
+
+  {
+    "name": "mozart",
+    "orderChaos": 35,
+    "lightDark": 50,
+    "oldNew": 30,
+    "simpleComplex": 40,
+    "sugarSpice": 35
+  },
+
+  {
+    "name": "rach",
+    "orderChaos": 25,
+    "lightDark": 95,
+    "oldNew": 75,
+    "simpleComplex": 90,
+    "sugarSpice": 60
+  },
+
+  {
+    "name": "ravel",
+    "orderChaos": 70,
+    "lightDark": 65,
+    "oldNew": 75,
+    "simpleComplex": 85,
+    "sugarSpice": 55
+  },
+
+  {
+    "name": "schoen",
+    "orderChaos": 90,
+    "lightDark": 85,
+    "oldNew": 80,
+    "simpleComplex": 70,
+    "sugarSpice": 95
+  },
+
+  {
+    "name": "schubert",
+    "orderChaos": 35,
+    "lightDark": 35,
+    "oldNew": 40,
+    "simpleComplex": 65,
+    "sugarSpice": 40
+  },
+
+  {
+    "name": "strauss",
+    "orderChaos": 30,
+    "lightDark": 25,
+    "oldNew": 65,
+    "simpleComplex": 45,
+    "sugarSpice": 25
+  },
+
+  {
+    "name": "tallis",
+    "orderChaos": 15,
+    "lightDark": 35,
+    "oldNew": 1,
+    "simpleComplex": 40,
+    "sugarSpice": 40
+  },
+
+  {
+    "name": "tchai",
+    "orderChaos": 35,
+    "lightDark": 50,
+    "oldNew": 50,
+    "simpleComplex": 55,
+    "sugarSpice": 20
+  },
+
+  {
+    "name": "vivaldi",
+    "orderChaos": 40,
+    "lightDark": 60,
+    "oldNew": 15,
+    "simpleComplex": 75,
+    "sugarSpice": 85
+  },
+
+  {
+    "name": "wagner",
+    "orderChaos": 15,
+    "lightDark": 50,
+    "oldNew": 45,
+    "simpleComplex": 45,
+    "sugarSpice": 50
+  },
+
+  {
+    "name": "mendel",
+    "orderChaos": 35,
+    "lightDark": 45,
+    "oldNew": 45,
+    "simpleComplex": 55,
+    "sugarSpice": 40
+  },
+
+  {
+    "name": "verdi",
+    "orderChaos": 40,
+    "lightDark": 60,
+    "oldNew": 50,
+    "simpleComplex": 55,
+    "sugarSpice": 55
+  },
+
+  {
+    "name": "puccini",
+    "orderChaos": 70,
+    "lightDark": 75,
+    "oldNew": 65,
+    "simpleComplex": 65,
+    "sugarSpice": 80
+  },
+
+  {
+    "name": "strav",
+    "orderChaos": 90,
+    "lightDark": 85,
+    "oldNew": 75,
+    "simpleComplex": 50,
+    "sugarSpice": 95
+  },
+
+  {
+    "name": "schum",
+    "orderChaos": 25,
+    "lightDark": 45,
+    "oldNew": 45,
+    "simpleComplex": 20,
+    "sugarSpice": 20
+  },
+
+  {
+    "name": "berlioz",
+    "orderChaos": 60,
+    "lightDark": 70,
+    "oldNew": 35,
+    "simpleComplex": 60,
+    "sugarSpice": 85
+  },
+
+  {
+    "name": "grieg",
+    "orderChaos": 75,
+    "lightDark": 75,
+    "oldNew": 60,
+    "simpleComplex": 40,
+    "sugarSpice": 90
+  },
+
+  {
+    "name": "elgar",
+    "orderChaos": 15,
+    "lightDark": 15,
+    "oldNew": 65,
+    "simpleComplex": 65,
+    "sugarSpice": 30
+  },
+
+  {
+    "name": "monte",
+    "orderChaos": 30,
+    "lightDark": 40,
+    "oldNew": 5,
+    "simpleComplex": 50,
+    "sugarSpice": 20
+  },
+
+  {
+    "name": "dvorak",
+    "orderChaos": 40,
+    "lightDark": 50,
+    "oldNew": 55,
+    "simpleComplex": 60,
+    "sugarSpice": 70
+  },
+
+  {
+    "name": "shost",
+    "orderChaos": 30,
+    "lightDark": 80,
+    "oldNew": 80,
+    "simpleComplex": 35,
+    "sugarSpice": 60
+  },
+
+  {
+    "name": "silebius",
+    "orderChaos": 75,
+    "lightDark": 65,
+    "oldNew": 70,
+    "simpleComplex": 55,
+    "sugarSpice": 35
+  },
+
+  {
+    "name": "prok",
+    "orderChaos": 60,
+    "lightDark": 90,
+    "oldNew": 70,
+    "simpleComplex": 60,
+    "sugarSpice": 90
+  },
+
+  {
+    "name": "saint",
+    "orderChaos": 65,
+    "lightDark": 25,
+    "oldNew": 50,
+    "simpleComplex": 60,
+    "sugarSpice": 10
+  },
+
+  {
+    "name": "satie",
+    "orderChaos": 75,
+    "lightDark": 45,
+    "oldNew": 60,
+    "simpleComplex": 1,
+    "sugarSpice": 30
+  },
+
+  {
+    "name": "faure",
+    "orderChaos": 30,
+    "lightDark": 55,
+    "oldNew": 45,
+    "simpleComplex": 40,
+    "sugarSpice": 25
+  },
+
+  {
+    "name": "muss",
+    "orderChaos": 40,
+    "lightDark": 85,
+    "oldNew": 40,
+    "simpleComplex": 40,
+    "sugarSpice": 55
+  },
+
+  {
+    "name": "gersh",
+    "orderChaos": 85,
+    "lightDark": 45,
+    "oldNew": 80,
+    "simpleComplex": 55,
+    "sugarSpice": 99
+  },
+
+  {
+    "name": "purcell",
+    "orderChaos": 20,
+    "lightDark": 30,
+    "oldNew": 10,
+    "simpleComplex": 40,
+    "sugarSpice": 35
+  },
+
+  {
+    "name": "holst",
+    "orderChaos": 45,
+    "lightDark": 30,
+    "oldNew": 60,
+    "simpleComplex": 50,
+    "sugarSpice": 20
+  },
+
+  {
+    "name": "copland",
+    "orderChaos": 60,
+    "lightDark": 30,
+    "oldNew": 90,
+    "simpleComplex": 50,
+    "sugarSpice": 50
+  },
+
+  {
+    "name": "barber",
+    "orderChaos": 35,
+    "lightDark": 35,
+    "oldNew": 95,
+    "simpleComplex": 35,
+    "sugarSpice": 25
+  },
+
+  {
+    "name": "byrd",
+    "orderChaos": 15,
+    "lightDark": 40,
+    "oldNew": 1,
+    "simpleComplex": 25,
+    "sugarSpice": 35
+  },
+
+  {
+    "name": "rutter",
+    "orderChaos": 15,
+    "lightDark": 5,
+    "oldNew": 99,
+    "simpleComplex": 35,
+    "sugarSpice": 5
+  }
+]

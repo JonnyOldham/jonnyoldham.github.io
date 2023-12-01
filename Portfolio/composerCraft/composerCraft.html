@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>ComposerCraft 1.0</title>
+  </head>
+  <body>
+    <section id="head">
+      <div id="title">
+        <h1>
+          Composer<span id="craft">Craft</span> <span id="iteration">1.0</span>
+        </h1>
+      </div>
+    </section>
+    <section id="instructions">
+      <h3>User Instructions</h3>
+      <p>
+        Presenting ComposerCraft 1.0! This magic machine will recommend a
+        classical composer based on your taste!
+      </p>
+      <ol>
+        <li>
+          Adjust the sliders to suit your personal preferences accordingly
+        </li>
+        <li>Select <span id="submitText">craft</span> to start the machine!</li>
+        <li>Your recommended composer will appear below</li>
+      </ol>
+    </section>
+    <div id="container">
+      <section id="settings">
+        <h3>Preferences</h3>
+        <div id="sliders">
+          <table>
+            <tr>
+              <td>Order</td>
+              <td>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="slider"
+                  id="orderChaos"
+                  style="background: url('img/orderChaosSlider.jpg') no-repeat; background-size: 100% 100%;"
+                />
+              </td>
+              <td>Chaos</td>
+            </tr>
+            <tr>
+              <td>Light</td>
+              <td>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="slider"
+                  id="lightDark"
+                  style="background: url('img/lightDarkSlider.jpg') no-repeat; background-size: 100% 100%;"
+                />
+              </td>
+              <td>Dark</td>
+            </tr>
+            <tr>
+              <td>Past</td>
+              <td>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="slider"
+                  id="oldNew"
+                  style="background: url('img/oldNewSlider.jpg') no-repeat; background-size: 100% 100%;"
+                />
+              </td>
+              <td>Present</td>
+            </tr>
+            <tr>
+              <td>Simple</td>
+              <td>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="slider"
+                  id="simpleComplex"
+                  style="background: url('img/simpleComplexSlider.jpg') no-repeat; background-size: 100% 100%;"
+                />
+              </td>
+              <td>Complex</td>
+            </tr>
+            <tr>
+              <td>Sugar</td>
+              <td>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="slider"
+                  id="sugarSpice"
+                  style="background: url('img/sweetSpicySlider.jpg') no-repeat; background-size: 100% 100%;"
+                />
+              </td>
+              <td>Spice</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="controls">
+        <h3>Machine Controls</h3>
+        <div id="panel">
+          <button id="randomizeBtn" class="button">Randomise</button>
+          <button id="submitBtn" class="button">Craft</button>
+          <button id="resetBtn" class="button">Reset</button>
+        </div>
+      </section>
+    </div>
+    <div id="infoContainer">
+      <section id="resultSection">
+        <div id="composerPortrait">
+          <img id="frame" src="img/frame.png" height="300px" width="250px" />
+          <img id="composerImage" src="" height="250px" width="200px" />
+        </div>
+        <div id="composerInfo">
+          <div id="compHead">
+            <h3 id="composerName"></h3>
+            <img id="flag" src="" />
+          </div>
+          <p id="about"></p>
+        </div>
+      </section>
+      <section id="music">
+        <h3>Recommended Listening</h3>
+        <h4 id="recList"></h4>
+        <p id="recDesc"></p>
+        <iframe
+          id="recVid"
+          width="260"
+          height="180"
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+  </body>
+</html>
