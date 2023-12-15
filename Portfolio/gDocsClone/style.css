@@ -383,12 +383,9 @@ body {
 
 @media (max-width: 1190px) {
   .newDocs {
-    white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: scroll;
     overflow-y: hidden;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid grey;
+    width: 100%;
   }
 }
 
@@ -446,5 +443,9 @@ body {
 
   .newDocs {
     margin-bottom: 20px;
+  }
+
+  .rdimage {
+    opacity: 1;
   }
 }
