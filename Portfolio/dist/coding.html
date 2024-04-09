@@ -17,11 +17,24 @@
   </head>
   <body class="light-mode">
     <main class="main2">
-      <section class="toggle">
-        <button id="dlToggle" aria-label="Toggle light/dark theme">
-          <img id="toggleImage" src="./img/darklight2.png" height="30px" />
-        </button>
-      </section>
+      <div id="color-mode-container">
+        <div class="color-mode-light" id="light-container">
+          <img
+            src="./img/moon-black.png"
+            class="color-toggle-button"
+            alt="Toggle colour mode"
+            id="light-toggle"
+          >
+        </div>
+        <div class="color-mode-dark" id="dark-container">
+          <img
+            src="./img/moon-green.png"
+            class="color-toggle-button"
+            alt="Toggle colour mode"
+            id="dark-toggle"
+          >
+        </div>
+      </div>
       <nav class="navButtons">
         <a href="https://jonnyoldham.github.io/Portfolio/dist/index.html">
           <button id="home" class="button" title="Home" alt="Go to homepage">
@@ -82,9 +95,9 @@
             <img class="projectImage" src="./img/clones.png" alt="" />
             <h4 class="tileText">
               <span id="gDocs1"
-                ><span id="blue">G</span><span id="red">o</span
-                ><span id="yellow">o</span><span id="blue">g</span
-                ><span id="green">l</span><span id="red">e</span></span
+                ><span class="blue">G</span><span class="red">o</span
+                ><span class="yellow">o</span><span class="blue">g</span
+                ><span class="green">l</span><span class="red">e</span></span
               ><span id="gDocs2">Docs</span> <span id="clone">clone</span>
             </h4>
             <p class="tileDesc" class="tileText">
@@ -111,8 +124,10 @@
             <img class="projectImage" src="./img/finance.png" alt="" />
             <h4 class="tileText">Finance App</h4>
             <p class="tileDesc" class="tileText">
-              A personal finance tracker that allows users to input and track
-              their expenses and income.
+              Empower your financial journey with precision and simplicity. Your
+              personal companion for instilling mindful budgeting and effortless
+              expense tracking. Elevate your financial well-being, one
+              transaction at a time.
             </p>
             <br />
             <div class="projectIcons">
@@ -121,6 +136,27 @@
               <img src="./img/Python-Dark.svg" alt="" id="pythonImg" />
               <img src="./img/SQLite.svg" alt="" />
               <img src="./img/Flask-Dark.svg" alt="" id="flaskImg" />
+            </div>
+          </a>
+        </div>
+        <div class="projectTile">
+          <a
+            class="tileHead"
+            href=""
+            target="_blank"
+          >
+            <img class="projectImage" src="./img/dalle-4.jpg" alt="" />
+            <h4 class="tileText"><span class="bookman-bold">AR</span><span class="bookman">History</span></h4>
+            <p class="tileDesc" class="tileText">
+              A web based AR experience to overlay and display information about two paintings in NML Liverpool, showing visitors the original sketch and an x-ray scan of the painting which their restoration team had produced.
+            </p>
+            <br />
+            <div class="projectIcons">
+              <img src="./img/HTML.svg" alt="" />
+              <img src="./img/CSS.svg" alt="" />
+              <img src="./img/node-js.svg" class="node-js" alt="" />
+              <img src="./img/a-frame.png" class="a-frame" alt="" />
+              <img src="./img/8th-wall.webp" class="eigth-wall" alt="" />
             </div>
           </a>
         </div>

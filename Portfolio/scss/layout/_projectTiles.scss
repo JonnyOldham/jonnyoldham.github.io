@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Merriweather&family=Rock+Salt&display=swap");
 @import url("https://fonts.cdnfonts.com/css/product-sans");
 
+@font-face {
+  font-family: "Bookman Old Style";
+  src: url("/media/BOOKOS.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bookman Old Style";
+  src: url("/media/BOOKOSB.TTF") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Bookman Old Style";
+  src: url("/media/BOOKOSI.TTF") format("truetype");
+  font-style: italic;
+}
+
 #projectTiles {
   width: 100vw;
   display: flex;
@@ -96,4 +115,24 @@ h4 {
 #gDocs2 {
   font-family: "Product Sans", sans-serif;
   color: var(--font-color2);
+}
+
+.bookman {
+  font-family: "Bookman Old Style";
+  font-weight: lighter;
+}
+
+.bookman-bold {
+  font-family: "Bookman Old Style";
+  font-weight: bold;
+}
+
+.node-js {
+  background-color: rgb(234, 225, 87);
+  border-radius: 10px;
+  height: 40px;
+}
+
+.a-frame, .eigth-wall {
+  border-radius: 10px;
 }

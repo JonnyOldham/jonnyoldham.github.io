@@ -43,13 +43,7 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
-#dlToggle {
-  appearance: none;
-  border: none;
-  border-radius: 50%;
-  background-color: transparent;
-
-  &:hover {
-    background: var(--button-fadeColor) 20%;
-  }
+.color-toggle-button {
+  transform: rotate(270deg);
+  height: 40px;
 }

@@ -1,4 +1,3 @@
-const dlToggle = document.getElementById("dlToggle");
 let isLightTheme;
 
 const prefersDarkMode =
@@ -21,7 +20,6 @@ function setTheme() {
     body.classList.add("light-mode");
     updateImages(
       "./img/robotfacefade2.png",
-      "./img/darklight2.png",
       "./img/Python-Dark.svg",
       "./img/Flask-Dark.svg"
     );
@@ -30,11 +28,12 @@ function setTheme() {
     body.classList.add("dark-mode");
     updateImages(
       "./img/robotfacefade.png",
-      "./img/darklight.png",
       "./img/Python-Light.svg",
       "./img/Flask-Light.svg"
     );
   }
+
+  setThemeVisibility();
 
   body.classList.add("fade-transition");
 
@@ -42,6 +41,43 @@ function setTheme() {
     body.classList.remove("fade-transition");
   }, 2000);
 }
+
+function setThemeVisibility() {
+  const colorModeLight = document.querySelector(".color-mode-light");
+  const colorModeDark = document.querySelector(".color-mode-dark");
+
+  if (isLightTheme) {
+    colorModeLight.style.display = "block";
+    colorModeDark.style.display = "none";
+  } else {
+    colorModeLight.style.display = "none";
+    colorModeDark.style.display = "block";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const lightModeButton = document.getElementById("light-toggle");
+  const darkModeButton = document.getElementById("dark-toggle");
+
+  const lightModeContainer = document.getElementById("light-container");
+  const darkModeContainer = document.getElementById("dark-container");
+
+  lightModeContainer.addEventListener("mouseover", function () {
+    lightModeButton.src = "./img/moon-black-fill.png";
+  });
+
+  lightModeContainer.addEventListener("mouseout", function () {
+    lightModeButton.src = "./img/moon-black.png";
+  });
+
+  darkModeContainer.addEventListener("mouseover", function () {
+    darkModeButton.src = "./img/moon-green-fill.png";
+  });
+
+  darkModeContainer.addEventListener("mouseout", function () {
+    darkModeButton.src = "./img/moon-green.png";
+  });
+});
 
 function fadeOutIn(element, newSrc) {
   element.style.transition = "opacity 2s ease";
@@ -63,18 +99,13 @@ function appear(element, newSrc) {
   }, 1);
 }
 
-function updateImages(robotFaceSrc, toggleImageSrc, pythonImgSrc, flaskImgSrc) {
+function updateImages(robotFaceSrc, pythonImgSrc, flaskImgSrc) {
   const robotFace = document.getElementById("robotFace");
-  const toggleImage = document.getElementById("toggleImage");
   const pythonImg = document.getElementById("pythonImg");
   const flaskImg = document.getElementById("flaskImg");
 
   if (robotFace) {
     fadeOutIn(robotFace, robotFaceSrc);
-  }
-
-  if (toggleImage) {
-    fadeOutIn(toggleImage, toggleImageSrc);
   }
 
   if (pythonImg) {
@@ -88,10 +119,12 @@ function updateImages(robotFaceSrc, toggleImageSrc, pythonImgSrc, flaskImgSrc) {
 
 setTheme();
 
-dlToggle.addEventListener("click", () => {
-  isLightTheme = !isLightTheme;
+const colorToggleButtons = document.querySelectorAll(".color-toggle-button");
 
-  localStorage.setItem("theme", isLightTheme ? "light" : "dark");
-
-  setTheme();
+colorToggleButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    isLightTheme = !isLightTheme;
+    localStorage.setItem("theme", isLightTheme ? "light" : "dark");
+    setTheme();
+  });
 });

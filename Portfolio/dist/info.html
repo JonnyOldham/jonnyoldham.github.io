@@ -18,11 +18,24 @@
   </head>
   <body class="light-mode">
     <main class="main2">
-      <section class="toggle">
-        <button id="dlToggle" aria-label="Toggle light/dark theme">
-          <img id="toggleImage" src="./img/darklight2.png" height="30px" />
-        </button>
-      </section>
+      <div id="color-mode-container">
+        <div class="color-mode-light" id="light-container">
+          <img
+            src="./img/moon-black.png"
+            class="color-toggle-button"
+            alt="Toggle colour mode"
+            id="light-toggle"
+          >
+        </div>
+        <div class="color-mode-dark" id="dark-container">
+          <img
+            src="./img/moon-green.png"
+            class="color-toggle-button"
+            alt="Toggle colour mode"
+            id="dark-toggle"
+          >
+        </div>
+      </div>
       <nav class="navButtons">
         <a href="https://jonnyoldham.github.io/Portfolio/dist/index.html">
           <button id="home" class="button" title="Home" alt="Go to homepage">
