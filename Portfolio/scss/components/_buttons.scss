@@ -14,6 +14,14 @@
   }
 }
 
+.navButtons a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
 @keyframes border-spin {
   0% {
     border-width: 2px;
